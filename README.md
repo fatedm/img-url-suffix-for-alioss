@@ -17,6 +17,7 @@ const url = imgUrlSuffixForAlioss('http://sitecdn.zcy.gov.cn/zcy-front-other-upl
   mPad: true,
   color: 'FF0000'
 });
+// http://sitecdn.zcy.gov.cn/zcy-front-other-upload/1920x1200_cd38f61d8d608f8.png?x-oss-process=image/resize,m_fixed,h_100,w_100,m_pad,color_FF0000/quality,Q_80/format,webp
 ```
 
 ## 配置项
