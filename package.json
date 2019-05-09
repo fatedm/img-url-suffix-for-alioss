@@ -1,0 +1,25 @@
+{
+  "name": "img-url-suffix-for-alioss",
+  "version": "1.0.0",
+  "description": "ali oss img url suffix",
+  "main": "index.min.js",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "jest-canvas-mock": "^2.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "alioss",
+    "img",
+    "suffix"
+  ],
+  "jest": {
+    "setupFiles": [
+      "jest-canvas-mock"
+    ]
+  },
+  "author": "gecidm@163.com",
+  "license": "ISC"
+}
