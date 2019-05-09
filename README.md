@@ -10,8 +10,8 @@ npm i img-url-suffix-for-alioss
 
 ## 使用方法
 ```js
-import imgSuffix from 'img-url-suffix-for-alioss/index.js';
-const url = imgSuffix('http://sitecdn.zcy.gov.cn/zcy-front-other-upload/1920x1200_cd38f61d8d608f8.png', {
+import imgUrlSuffixForAlioss from 'img-url-suffix-for-alioss/index.js';
+const url = imgUrlSuffixForAlioss('http://sitecdn.zcy.gov.cn/zcy-front-other-upload/1920x1200_cd38f61d8d608f8.png', {
   width: 100,
   height: 100,
   mPad: true,
@@ -21,9 +21,9 @@ const url = imgSuffix('http://sitecdn.zcy.gov.cn/zcy-front-other-upload/1920x120
 
 ## 配置项
 ```js
-imgSuffix(url, option)
+imgUrlSuffixForAlioss(url, option)
 ```
-* url
+* url: 阿里云oss图片地址
 * option
   * width: number,图片宽度
   * height: number,图片高度

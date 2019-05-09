@@ -1,8 +1,12 @@
 {
   "name": "img-url-suffix-for-alioss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ali oss img url suffix",
   "main": "index.min.js",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/fatedm/img-url-suffix-for-alioss"
+	},
   "devDependencies": {
     "jest": "^24.8.0",
     "jest-canvas-mock": "^2.0.0"
